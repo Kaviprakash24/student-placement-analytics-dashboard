@@ -1,0 +1,27 @@
+# History and Environment files
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Log files and crash reports
+*.log
+*.tmp
+
+# Secret / environment variables
+.env
+.env.*
+!.env.example
+
+# Shiny / HTTPUV local runtime caches
+.Rproj.user/

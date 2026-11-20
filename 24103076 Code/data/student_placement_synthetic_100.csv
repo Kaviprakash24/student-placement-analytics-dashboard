@@ -1,0 +1,101 @@
+academic_year,branch,cgpa_range,coding_problems_solved_range,projects_completed_range,technical_internship_status,placement_status,career_interest,mock_interviews_completed,github_project_usage,self_reported_resume_readiness
+3rd Year,Computer Science,> 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,1-2,Active,High
+4th Year,Computer Science,< 7.0,< 50,0-1,Yes,Not Placed,Software Engineering,0,Inactive,Medium
+4th Year,Computer Science,> 9.0,> 500,4+,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Electronics,7.0 - 8.0,< 50,2-3,No,Not Placed,Software Engineering,0,Inactive,Medium
+3rd Year,Mechanical,7.0 - 8.0,50 - 200,0-1,Yes,Placed,Core Engineering,0,Inactive,Medium
+3rd Year,Computer Science,7.0 - 8.0,50 - 200,0-1,No,Not Placed,Software Engineering,0,Inactive,Medium
+3rd Year,Information Technology,> 9.0,200 - 500,4+,Yes,Placed,Data Science,3+,Active,High
+3rd Year,Electronics,> 9.0,200 - 500,2-3,Yes,Placed,Data Science,3+,Active,High
+4th Year,Computer Science,7.0 - 8.0,< 50,2-3,No,Not Placed,Core Engineering,0,Inactive,Medium
+3rd Year,Electronics,8.0 - 9.0,> 500,4+,Yes,Placed,Software Engineering,1-2,Active,High
+4th Year,Computer Science,> 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+4th Year,Mechanical,8.0 - 9.0,> 500,2-3,Yes,Placed,Data Science,1-2,Active,High
+4th Year,Computer Science,< 7.0,50 - 200,0-1,No,Not Placed,Software Engineering,0,Inactive,Medium
+3rd Year,Information Technology,< 7.0,< 50,2-3,No,Not Placed,Management,0,Inactive,Medium
+3rd Year,Computer Science,< 7.0,< 50,2-3,Yes,Placed,Software Engineering,0,Inactive,Medium
+3rd Year,Electronics,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Data Science,3+,Active,High
+4th Year,Mechanical,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,1-2,Active,High
+4th Year,Computer Science,> 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,1-2,Active,High
+3rd Year,Computer Science,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Data Science,3+,Active,High
+3rd Year,Information Technology,8.0 - 9.0,200 - 500,4+,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Computer Science,8.0 - 9.0,> 500,4+,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Computer Science,7.0 - 8.0,< 50,0-1,Yes,Placed,Management,0,Moderate,Low
+3rd Year,Electronics,< 7.0,50 - 200,0-1,Yes,Placed,Core Engineering,0,Inactive,Low
+4th Year,Mechanical,7.0 - 8.0,< 50,0-1,No,Placed,Management,0,Moderate,Medium
+4th Year,Mechanical,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Computer Science,> 9.0,200 - 500,4+,Yes,Placed,Software Engineering,1-2,Active,High
+3rd Year,Information Technology,< 7.0,< 50,2-3,Yes,Placed,Management,0,Inactive,Low
+4th Year,Electronics,7.0 - 8.0,< 50,2-3,No,Placed,Management,0,Moderate,Medium
+3rd Year,Computer Science,< 7.0,< 50,0-1,No,Not Placed,Core Engineering,0,Moderate,Low
+4th Year,Electronics,7.0 - 8.0,< 50,2-3,Yes,Placed,Core Engineering,0,Moderate,Low
+3rd Year,Electronics,< 7.0,50 - 200,0-1,No,Not Placed,Core Engineering,0,Moderate,Low
+4th Year,Electronics,7.0 - 8.0,< 50,2-3,Yes,Not Placed,Core Engineering,0,Moderate,Low
+3rd Year,Information Technology,8.0 - 9.0,200 - 500,4+,Yes,Placed,Software Engineering,1-2,Active,High
+4th Year,Electronics,> 9.0,> 500,2-3,Yes,Placed,Software Engineering,1-2,Active,High
+4th Year,Mechanical,> 9.0,200 - 500,2-3,Yes,Placed,Data Science,1-2,Active,High
+3rd Year,Information Technology,8.0 - 9.0,> 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Mechanical,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Data Science,3+,Active,High
+4th Year,Information Technology,< 7.0,50 - 200,2-3,No,Not Placed,Software Engineering,0,Moderate,Medium
+4th Year,Electronics,> 9.0,> 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Mechanical,7.0 - 8.0,50 - 200,0-1,No,Placed,Software Engineering,0,Moderate,Low
+4th Year,Computer Science,> 9.0,> 500,4+,Yes,Placed,Data Science,1-2,Active,High
+4th Year,Computer Science,8.0 - 9.0,> 500,4+,Yes,Placed,Data Science,3+,Active,High
+4th Year,Information Technology,7.0 - 8.0,< 50,2-3,No,Placed,Core Engineering,0,Moderate,Medium
+4th Year,Electronics,7.0 - 8.0,< 50,2-3,Yes,Placed,Core Engineering,0,Moderate,Medium
+3rd Year,Electronics,< 7.0,< 50,0-1,Yes,Placed,Management,0,Moderate,Low
+4th Year,Information Technology,8.0 - 9.0,> 500,4+,Yes,Placed,Software Engineering,1-2,Active,High
+3rd Year,Computer Science,> 9.0,200 - 500,4+,Yes,Placed,Software Engineering,1-2,Active,High
+3rd Year,Mechanical,7.0 - 8.0,50 - 200,2-3,No,Not Placed,Management,0,Inactive,Medium
+4th Year,Information Technology,8.0 - 9.0,> 500,2-3,Yes,Placed,Data Science,3+,Active,High
+3rd Year,Electronics,7.0 - 8.0,50 - 200,0-1,Yes,Placed,Software Engineering,0,Inactive,Medium
+3rd Year,Information Technology,7.0 - 8.0,50 - 200,2-3,No,Placed,Management,0,Inactive,Medium
+3rd Year,Mechanical,7.0 - 8.0,50 - 200,2-3,No,Placed,Management,0,Moderate,Low
+4th Year,Mechanical,7.0 - 8.0,50 - 200,0-1,No,Placed,Software Engineering,0,Inactive,Medium
+3rd Year,Computer Science,> 9.0,> 500,2-3,Yes,Placed,Data Science,1-2,Active,High
+4th Year,Electronics,7.0 - 8.0,50 - 200,2-3,No,Not Placed,Management,0,Moderate,Low
+3rd Year,Computer Science,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,1-2,Active,High
+3rd Year,Information Technology,> 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Mechanical,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Data Science,1-2,Active,High
+3rd Year,Computer Science,8.0 - 9.0,> 500,2-3,Yes,Placed,Software Engineering,1-2,Active,High
+3rd Year,Electronics,> 9.0,200 - 500,4+,Yes,Placed,Data Science,3+,Active,High
+3rd Year,Electronics,7.0 - 8.0,50 - 200,0-1,No,Not Placed,Management,0,Moderate,Low
+3rd Year,Electronics,8.0 - 9.0,> 500,4+,Yes,Placed,Data Science,3+,Active,High
+3rd Year,Computer Science,7.0 - 8.0,< 50,2-3,No,Not Placed,Management,0,Inactive,Medium
+3rd Year,Mechanical,7.0 - 8.0,50 - 200,2-3,No,Placed,Core Engineering,0,Inactive,Low
+4th Year,Mechanical,> 9.0,> 500,4+,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Electronics,< 7.0,50 - 200,2-3,No,Not Placed,Management,0,Moderate,Medium
+4th Year,Electronics,< 7.0,< 50,0-1,No,Not Placed,Core Engineering,0,Inactive,Low
+4th Year,Electronics,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+4th Year,Information Technology,< 7.0,50 - 200,0-1,Yes,Not Placed,Core Engineering,0,Inactive,Medium
+3rd Year,Electronics,7.0 - 8.0,50 - 200,0-1,Yes,Not Placed,Core Engineering,0,Moderate,Low
+4th Year,Mechanical,< 7.0,< 50,0-1,No,Not Placed,Software Engineering,0,Inactive,Low
+4th Year,Information Technology,8.0 - 9.0,> 500,4+,Yes,Placed,Data Science,3+,Active,High
+4th Year,Computer Science,> 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Information Technology,< 7.0,< 50,0-1,No,Not Placed,Core Engineering,0,Moderate,Medium
+3rd Year,Electronics,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+4th Year,Computer Science,> 9.0,> 500,2-3,Yes,Placed,Software Engineering,1-2,Active,High
+3rd Year,Electronics,8.0 - 9.0,> 500,2-3,Yes,Placed,Data Science,3+,Active,High
+4th Year,Electronics,8.0 - 9.0,> 500,2-3,Yes,Placed,Data Science,1-2,Active,High
+4th Year,Electronics,< 7.0,< 50,2-3,Yes,Placed,Management,0,Moderate,Medium
+3rd Year,Mechanical,8.0 - 9.0,200 - 500,4+,Yes,Placed,Data Science,3+,Active,High
+4th Year,Electronics,> 9.0,> 500,4+,Yes,Placed,Data Science,3+,Active,High
+4th Year,Computer Science,7.0 - 8.0,50 - 200,2-3,Yes,Not Placed,Management,0,Inactive,Medium
+3rd Year,Information Technology,8.0 - 9.0,> 500,2-3,Yes,Placed,Data Science,1-2,Active,High
+3rd Year,Electronics,7.0 - 8.0,< 50,0-1,Yes,Placed,Software Engineering,0,Moderate,Low
+4th Year,Computer Science,< 7.0,50 - 200,0-1,Yes,Not Placed,Management,0,Moderate,Medium
+4th Year,Mechanical,< 7.0,50 - 200,0-1,Yes,Placed,Management,0,Moderate,Medium
+4th Year,Computer Science,7.0 - 8.0,50 - 200,0-1,No,Not Placed,Software Engineering,0,Moderate,Medium
+4th Year,Mechanical,> 9.0,200 - 500,4+,Yes,Placed,Data Science,1-2,Active,High
+3rd Year,Electronics,8.0 - 9.0,> 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Electronics,8.0 - 9.0,200 - 500,4+,Yes,Placed,Software Engineering,1-2,Active,High
+4th Year,Information Technology,7.0 - 8.0,50 - 200,2-3,Yes,Not Placed,Software Engineering,0,Moderate,Medium
+4th Year,Computer Science,> 9.0,> 500,2-3,Yes,Placed,Data Science,1-2,Active,High
+3rd Year,Computer Science,7.0 - 8.0,< 50,0-1,No,Placed,Management,0,Moderate,Medium
+4th Year,Information Technology,7.0 - 8.0,< 50,0-1,Yes,Placed,Management,0,Moderate,Low
+3rd Year,Information Technology,7.0 - 8.0,50 - 200,2-3,Yes,Not Placed,Core Engineering,0,Moderate,Low
+4th Year,Electronics,8.0 - 9.0,> 500,4+,Yes,Placed,Data Science,3+,Active,High
+3rd Year,Mechanical,> 9.0,200 - 500,4+,Yes,Placed,Data Science,3+,Active,High
+4th Year,Computer Science,8.0 - 9.0,> 500,2-3,Yes,Placed,Data Science,1-2,Active,High
+4th Year,Information Technology,8.0 - 9.0,200 - 500,2-3,Yes,Placed,Software Engineering,3+,Active,High
+3rd Year,Computer Science,7.0 - 8.0,< 50,2-3,Yes,Placed,Software Engineering,0,Moderate,Medium

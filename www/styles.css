@@ -1,0 +1,412 @@
+/* ==============================================================================
+   STUDENT PLACEMENT ANALYTICS DASHBOARD - MODERN EXECUTIVE THEME
+   Department of Computer Science & Engineering, NIT Jalandhar
+   ============================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --primary-navy: #0f172a;
+  --secondary-slate: #334155;
+  --brand-blue: #2563eb;
+  --brand-blue-hover: #1d4ed8;
+  --brand-blue-light: #eff6ff;
+  --accent-emerald: #059669;
+  --accent-emerald-light: #ecfdf5;
+  --accent-amber: #d97706;
+  --accent-amber-light: #fffbeb;
+  --accent-rose: #e11d48;
+  --accent-rose-light: #fff1f2;
+  --accent-purple: #7c3aed;
+  --accent-purple-light: #f5f3ff;
+  --surface-bg: #f8fafc;
+  --card-bg: #ffffff;
+  --border-subtle: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.04);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--surface-bg);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ================= Navbar Styling ================= */
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--border-subtle);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.04);
+  padding: 0.75rem 1.5rem;
+}
+
+.navbar-brand {
+  font-weight: 800 !important;
+  color: var(--primary-navy) !important;
+  font-size: 1.25rem !important;
+  letter-spacing: -0.025em;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.navbar-brand .brand-badge {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-weight: 600 !important;
+  color: var(--secondary-slate) !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-size: 0.92rem;
+}
+
+.nav-link:hover {
+  color: var(--brand-blue) !important;
+  background-color: var(--brand-blue-light);
+}
+
+.nav-link.active {
+  color: var(--brand-blue) !important;
+  background-color: var(--brand-blue-light) !important;
+}
+
+/* ================= KPI Cards ================= */
+.kpi-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.kpi-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-medium);
+}
+
+.kpi-card.primary { border-left: 4px solid var(--brand-blue); }
+.kpi-card.success { border-left: 4px solid var(--accent-emerald); }
+.kpi-card.warning { border-left: 4px solid var(--accent-amber); }
+.kpi-card.danger { border-left: 4px solid var(--accent-rose); }
+.kpi-card.purple { border-left: 4px solid var(--accent-purple); }
+
+.kpi-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.kpi-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.kpi-icon-wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.kpi-card.primary .kpi-icon-wrapper { background: var(--brand-blue-light); color: var(--brand-blue); }
+.kpi-card.success .kpi-icon-wrapper { background: var(--accent-emerald-light); color: var(--accent-emerald); }
+.kpi-card.warning .kpi-icon-wrapper { background: var(--accent-amber-light); color: var(--accent-amber); }
+.kpi-card.danger .kpi-icon-wrapper { background: var(--accent-rose-light); color: var(--accent-rose); }
+.kpi-card.purple .kpi-icon-wrapper { background: var(--accent-purple-light); color: var(--accent-purple); }
+
+.kpi-value {
+  font-size: 1.85rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--text-main);
+  line-height: 1.1;
+  margin-bottom: 0.25rem;
+}
+
+.kpi-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.kpi-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 9999px;
+  margin-top: 0.35rem;
+}
+
+.kpi-pill.positive { background: #dcfce7; color: #15803d; }
+.kpi-pill.neutral { background: #f1f5f9; color: #475569; }
+.kpi-pill.warning { background: #fef3c7; color: #b45309; }
+
+/* ================= Modern Cards ================= */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+}
+
+.card-header {
+  background: #ffffff;
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 1rem 1.25rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--primary-navy);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+/* ================= Banner / Header ================= */
+.executive-banner {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 60%, #1e3a8a 100%);
+  color: white;
+  border-radius: 14px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.executive-banner::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(circle, rgba(37,99,235,0.25) 0%, rgba(37,99,235,0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.banner-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.5rem;
+}
+
+.banner-subtitle {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  max-width: 850px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.banner-meta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: 0.82rem;
+  color: #94a3b8;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 0.85rem;
+}
+
+.banner-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.banner-meta-item strong {
+  color: #ffffff;
+}
+
+/* ================= Callout Box ================= */
+.insight-callout {
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.insight-callout.primary {
+  background-color: var(--brand-blue-light);
+  border-left-color: var(--brand-blue);
+  color: #1e3a8a;
+}
+
+.insight-callout.success {
+  background-color: var(--accent-emerald-light);
+  border-left-color: var(--accent-emerald);
+  color: #065f46;
+}
+
+.insight-callout.warning {
+  background-color: var(--accent-amber-light);
+  border-left-color: var(--accent-amber);
+  color: #92400e;
+}
+
+.insight-callout.danger {
+  background-color: var(--accent-rose-light);
+  border-left-color: var(--accent-rose);
+  color: #9f1239;
+}
+
+/* ================= Sidebar Filter ================= */
+.sidebar {
+  background-color: #ffffff !important;
+  border-right: 1px solid var(--border-subtle);
+  padding: 1.25rem;
+}
+
+.filter-section-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ================= Data Tables ================= */
+.dataTables_wrapper {
+  font-size: 0.88rem;
+  padding: 0.5rem 0;
+}
+
+table.dataTable thead th {
+  background-color: #f8fafc !important;
+  color: var(--secondary-slate) !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid var(--border-subtle) !important;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+table.dataTable tbody td {
+  border-bottom: 1px solid var(--border-subtle);
+  vertical-align: middle;
+}
+
+table.dataTable tbody tr:hover {
+  background-color: #f1f5f9 !important;
+}
+
+/* ================= Calculator Score Box ================= */
+.calculator-score-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 14px;
+  background: white;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-md);
+}
+
+.score-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 auto 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid var(--brand-blue);
+  background: var(--brand-blue-light);
+}
+
+.score-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--brand-blue);
+  line-height: 1;
+}
+
+.score-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+.tier-badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.tier-badge.tier-1 { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
+.tier-badge.tier-2 { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+.tier-badge.tier-3 { background: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
+
+/* ================= Footer ================= */
+.app-footer {
+  margin-top: 2.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.app-footer a {
+  color: var(--brand-blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
